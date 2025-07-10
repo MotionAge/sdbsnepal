@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
@@ -35,8 +36,13 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center space-x-4">
             <Link href="/" className="flex items-center space-x-2">
-              <Heart className="h-8 w-8 text-orange-500" />
-              <span className="text-xl font-bold text-orange-600">Sanatan Dharma Nepal</span>
+              <Image
+                src="/logo.jpg"
+                alt="Logo"
+                width={32}
+                height={32}
+              />
+             <span className="font-semibold text-lg">SDBS Nepal</span>
             </Link>
           </div>
 
