@@ -15,7 +15,7 @@ const blogPosts = [
     author: "Pandit Rajesh Sharma",
     date: "2024-01-15",
     category: "Education",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/dharmiceducation.webp?height=200&width=400",
     readTime: "5 min read",
   },
   {
@@ -27,7 +27,7 @@ const blogPosts = [
     author: "Dr. Priya Thapa",
     date: "2024-01-10",
     category: "Spirituality",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/comunity.webp?height=200&width=400",
     readTime: "7 min read",
   },
   {
@@ -39,7 +39,7 @@ const blogPosts = [
     author: "Amit Gurung",
     date: "2024-01-05",
     category: "Heritage",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/temple.webp?height=200&width=400",
     readTime: "6 min read",
   },
   {
@@ -50,7 +50,7 @@ const blogPosts = [
     author: "Dr. Priya Thapa",
     date: "2023-12-28",
     category: "Healthcare",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/healthcare.webp?height=200&width=400",
     readTime: "8 min read",
   },
   {
@@ -61,19 +61,8 @@ const blogPosts = [
     author: "Pandit Rajesh Sharma",
     date: "2023-12-20",
     category: "Youth",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/youth.webp?height=200&width=400",
     readTime: "4 min read",
-  },
-  {
-    id: 6,
-    title: "Sustainable Development Through Dharmic Principles",
-    excerpt: "How ancient wisdom guides our approach to environmental conservation and sustainable living.",
-    content: "The concept of living in harmony with nature is deeply embedded in dharmic philosophy...",
-    author: "Amit Gurung",
-    date: "2023-12-15",
-    category: "Environment",
-    image: "/placeholder.svg?height=200&width=400",
-    readTime: "6 min read",
   },
 ]
 
